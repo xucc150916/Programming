@@ -29,3 +29,11 @@ version_4
 rotateString.java
 2. 将字符串转换为整数
 strToInt.java
+
+version_5
+新增两道
+
+1. 寻找数组中出现一半次数的数
+moreThanHalfNum.java
+2. 寻找数组中第一个只出现一次的数字
+findOnlyOneNum.java
