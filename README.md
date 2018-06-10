@@ -42,8 +42,13 @@ rotateRight.java
 2. 将一个排序链表转换为一个二叉搜索树
 sortedListToBST.java
 
-
-
+version_7
+1. 将数组中所有奇数元素放置在偶数前面，并且相对位置不变
+reOrderArray.java
+2. 从里至外顺时针打印矩阵
+printMatrix.java
+3. 逆置字符串
+inversionMsg.java
 
 
 
