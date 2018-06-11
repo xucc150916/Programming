@@ -50,8 +50,12 @@ printMatrix.java
 3. 逆置字符串
 inversionMsg.java
 
-
-
+version_8
+1. 链表每个节点包含一个数字，所有的数字组合在一起倒序表示为一个多位数
+现在输入两个链表，将这两个链表表示的值相加并以这种形式返回一个链表
+addTwoNumbers.java
+2. 给定一个链表，从列表的末尾删除第n个节点并返回它的头部
+removeNthNodeFrontListEnd.java
 
 
 
