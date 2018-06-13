@@ -57,5 +57,14 @@ addTwoNumbers.java
 2. 给定一个链表，从列表的末尾删除第n个节点并返回它的头部
 removeNthNodeFrontListEnd.java
 
-
+version_9
+1. 给定一个链表和一个值x，对它进行分区，使得小于x的所有节点都在大于或等于x的节点之前.
+保留两个分区中的每一个节点的原始相对顺序。
+partition.java
+2. 时间复杂度为O (nlogn)，空间复杂度为常量的链表排序
+sortList.java
+3. 最小栈问题
+minStack.java
+4. 判断栈的入栈出栈合法性
+isPopOrder.java
 
