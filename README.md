@@ -68,3 +68,8 @@ minStack.java
 4. 判断栈的入栈出栈合法性
 isPopOrder.java
 
+version_10
+1. 使用递归将栈转置
+ReverseStackRecursively.java
+
+
