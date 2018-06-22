@@ -77,3 +77,9 @@ version_11
 isSymmetrical.java
 2. 层序遍历二叉树并且返回
 print.java
+
+version_12
+1. 非递归先序遍历二叉树
+PreorderTraversal.java
+2. 求一棵二叉树深度
+TreeDepth.java
