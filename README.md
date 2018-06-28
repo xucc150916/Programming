@@ -89,3 +89,13 @@ version_13
 IsBalanced.java
 2. 迭代后序遍历二叉树
 postorderTraversal.java
+
+version_14
+1. 创建不同结构的二叉树
+GenerateTrees.java
+2. 整理二叉树
+RecoverTree.java
+3. 判断两个二叉树是否相同
+IsSameTree.java
+4. 求二叉树中节点和最大的一条路径
+MaxPathSum.java
