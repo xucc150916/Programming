@@ -105,3 +105,9 @@ version_15
 TwoSum.java
 2. 验证二叉搜索树
 IsValidBST.java
+
+version_16
+1. 买不买问题
+BuyOrNot.java
+2. 坏键盘问题
+BadKeyboard.java
