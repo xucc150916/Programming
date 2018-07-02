@@ -111,3 +111,9 @@ version_16
 BuyOrNot.java
 2. 坏键盘问题
 BadKeyboard.java
+
+version_17
+1. 大数计算
+HighPrecisionIntegerAdd.java
+2. n的阶乘有多少个问题
+NumberOfFactorialZero.java
