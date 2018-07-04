@@ -30,8 +30,8 @@ strToInt.java
 
 version_5
 新增两道。
-1. 寻找数组中出现一半次数的数
-moreThanHalfNum.java
+1. 寻找数组中出现一半次数的数，时间复杂度为O(n*n)
+MoreThanHalfNum-1.java
 2. 寻找数组中第一个只出现一次的数字
 findOnlyOneNum.java
 
@@ -131,3 +131,11 @@ version_20
 SetZeroes.java
 2. 在字符矩阵中查找单词
 WordSearch.java
+
+version_21
+1. 二叉搜索树转换为有序的双链表，不开辟额外空间
+BSTToLinkList.java
+2. 寻找数组中出现一半次数的数，时间复杂度为O(n)
+MoreThanHalfNum-2
+3. 输出给定字符串的所有排列组合字符串
+Permutation.java

@@ -20,12 +20,13 @@ public class Test {
 		// 遍历数组
 		for(int i = 0; i < len; i++) {
 			int cur = array[i];
+			// j代表array[i]在array数组中第一次出现的下标
 			int j = 0;
-			// 找到数组中第一次出现cur的下标
 			while(array[j] != cur) {
 				j++;
 			}
-			// 在当前元素第一次出现的位置进行累加
+			
+			// 在times数组中当前元素第一次出现的位置进行累加
 			times[j]++;
 			j = 0;
 		}
