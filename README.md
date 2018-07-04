@@ -139,3 +139,9 @@ BSTToLinkList.java
 MoreThanHalfNum-2
 3. 输出给定字符串的所有排列组合字符串
 Permutation.java
+
+version_22
+1. 在一个有序数组中查找指定元素出现的范围
+SearchRange.java
+2. 在一个有序数组中查找指定元素的插入位置
+SearchInsert.java
