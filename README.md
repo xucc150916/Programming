@@ -145,3 +145,13 @@ version_22
 SearchRange.java
 2. 在一个有序数组中查找指定元素的插入位置
 SearchInsert.java
+
+version_23
+1. 生成括号
+GenerateParenthesis.java
+2. 给定一个仅包含数字 2-9 的字符串，返回所有它能表示的字母组合
+LetterCombinations.java
+3. 给定两个整数 n 和 k，返回 1 ... n 中所有可能的 k 个数的组合
+Combine.java
+4. 开方函数(使用牛顿迭代法)
+sqrtx.java
