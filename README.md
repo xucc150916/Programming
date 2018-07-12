@@ -161,3 +161,9 @@ version_24
 Sum.java
 2. 含有重复元素的全排列
 Permutation2.java
+
+version_25
+1. 数组元素加1
+plusOne.java
+2. 不使用加减乘除的加法
+Add.java
