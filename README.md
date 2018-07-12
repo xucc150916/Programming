@@ -155,3 +155,9 @@ LetterCombinations.java
 Combine.java
 4. 开方函数(使用牛顿迭代法)
 sqrtx.java
+
+version_24
+1. 不使用加减乘除计算n的累加
+Sum.java
+2. 含有重复元素的全排列
+Permutation2.java
