@@ -167,3 +167,9 @@ version_25
 plusOne.java
 2. 不使用加减乘除的加法
 Add.java
+
+version_26
+1. 求一组点中可以构成直线的点的最大数目
+MaxPoints.java
+2. 合并所有有交集的区间
+MergeIntervals.java
