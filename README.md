@@ -173,3 +173,9 @@ version_26
 MaxPoints.java
 2. 合并所有有交集的区间
 MergeIntervals.java
+
+version_27
+1. 字符串乘法
+MultiplyString.java
+2. 排序颜色数组
+SortColors.java
