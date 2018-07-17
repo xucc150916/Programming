@@ -179,3 +179,13 @@ version_27
 MultiplyString.java
 2. 排序颜色数组
 SortColors.java
+
+version_28
+1. 返回数组最k小的k个数
+GetLeastNumbers.java
+2. 寻找字符串中和最大的子串
+FindGrestestSumOfSubArray.java
+3. 求出1~n的数字中出现1的个数
+NumberOf1Between1AndN,java
+4. 输入一个正整数数组，把数组里所有数字拼接起来排成一个数，打印能拼接出的所有数字中最小的一个。
+PrintMinNumber.java
