@@ -197,3 +197,9 @@ RemoveElement.java
 RemoveDuplicates.java
 3. 返回丑数
 GetUglyNumbers.java
+
+version_30
+1. 交换链表中相邻两个节点的值
+SwapPairs.java
+2. 整数逆置
+ReverseInteger.java
