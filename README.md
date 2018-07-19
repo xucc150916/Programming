@@ -189,3 +189,11 @@ FindGrestestSumOfSubArray.java
 NumberOf1Between1AndN,java
 4. 输入一个正整数数组，把数组里所有数字拼接起来排成一个数，打印能拼接出的所有数字中最小的一个。
 PrintMinNumber.java
+
+version_29
+1. 删除数组中给定的元素，返回修改之后的数组长度
+RemoveElement.java
+2. 原地删除数组中重复的元素，并返回修改之后的结果
+RemoveDuplicates.java
+3. 返回丑数
+GetUglyNumbers.java
