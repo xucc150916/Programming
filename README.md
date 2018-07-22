@@ -203,3 +203,15 @@ version_30
 SwapPairs.java
 2. 整数逆置
 ReverseInteger.java
+
+version_31
+1. 求字符串中的所有字符集合
+CharacterSet.java
+2. 将公司名转化为对应的电话号码
+Telephone.java
+3. 求最大的连续数列和
+GetMaxSum.java
+4. 求字符串中最长的数字字串
+LongestContinuousNumbersStr.java
+5. 输入两个整数 n 和 m，从数列1，2，3.......n 中随意取几个数,使其和等于m的所有组合
+ValueIsM.java
