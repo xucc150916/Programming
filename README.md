@@ -215,3 +215,7 @@ GetMaxSum.java
 LongestContinuousNumbersStr.java
 5. 输入两个整数 n 和 m，从数列1，2，3.......n 中随意取几个数,使其和等于m的所有组合
 ValueIsM.java
+
+version_32
+1. 输出字符串中最长的数字字符串和它的长度。如果有相同长度的串，则要一块儿输出，但是长度还是一串的长度
+LongestContinuousNumbersStr2.java
