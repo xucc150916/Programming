@@ -219,3 +219,9 @@ ValueIsM.java
 version_32
 1. 输出字符串中最长的数字字符串和它的长度。如果有相同长度的串，则要一块儿输出，但是长度还是一串的长度
 LongestContinuousNumbersStr2.java
+
+version_33
+1. 给定一个十进制数M，以及需要转换的进制数N。将十进制数M转化为N进制数
+ConversionSystems.java
+2. 输入一个正整数n,求n!(即阶乘)末尾有多少个0
+NumberOfZero.java
