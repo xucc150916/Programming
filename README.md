@@ -225,3 +225,7 @@ version_33
 ConversionSystems.java
 2. 输入一个正整数n,求n!(即阶乘)末尾有多少个0
 NumberOfZero.java
+
+version_34
+1. 青蛙走迷宫，迷宫最优解问题
+FrooMaze.java
