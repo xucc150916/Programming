@@ -211,7 +211,7 @@ CharacterSet.java
 Telephone.java
 3. 求最大的连续数列和
 GetMaxSum.java
-4. 求字符串中最长的数字字串
+4. 求字符串中最长的数字子串
 LongestContinuousNumbersStr.java
 5. 输入两个整数 n 和 m，从数列1，2，3.......n 中随意取几个数,使其和等于m的所有组合
 ValueIsM.java
@@ -233,3 +233,7 @@ FrooMaze.java
 version_35
 1. 餐馆用餐问题
 RestaurantProblem.java
+
+version_36
+1. 寻找非空字符串中第一个只出现一次的字符
+FindOneTimes.java
