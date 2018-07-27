@@ -229,3 +229,7 @@ NumberOfZero.java
 version_34
 1. 青蛙走迷宫，迷宫最优解问题
 FrooMaze.java
+
+version_35
+1. 餐馆用餐问题
+RestaurantProblem.java

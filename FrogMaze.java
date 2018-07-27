@@ -8,7 +8,7 @@ import java.util.Scanner;
  * 小青蛙初始在(0,0)位置,地下迷宫的出口在(0,m-1)(保证这两个位置都是1,并且保证一定有起点到终点可达的路径),
  * 小青蛙在迷宫中水平移动一个单位距离需要消耗1点体力值,向上爬一个单位距离需要消耗3个单位的体力值,向下移动不消耗体力值,
  * 当小青蛙的体力值等于0的时候还没有到达出口,小青蛙将无法逃离迷宫。现在需要你帮助小青蛙计算出能否用仅剩的体力值跳出迷宫(即达到(0,m-1)位置)。
- * 
+ *
  * 输入描述:
  * 输入包括n+1行:
  *  第一行为三个整数n,m(3 <= m,n <= 10),P(1 <= P <= 100)
@@ -22,6 +22,7 @@ import java.util.Scanner;
  * 输出
  * [0,0],[1,0],[1,1],[2,1],[2,2],[2,3],[1,3],[0,3]
  */
+
 
 public class FrogMaze {
 
@@ -43,21 +44,42 @@ public class FrogMaze {
     // 保存当前走过的点
     static LinkedList<String> linkedList = new LinkedList<>();
 
+    // 测试用迷宫
+    static int[][] table = new int[][] {
+            {1, 0, 0, 0, 1, 0, 0, 1},
+            {1, 1, 0, 1, 1, 1, 0, 1},
+            {0, 1, 0, 1, 0, 1, 0, 1},
+            {0, 1, 1, 1, 0, 1, 0, 1},
+            {1, 0, 0, 0, 1, 1, 1, 1}
+    };
+
+
+
+
+
+
+
     public static void main(String[] args) {
         // 输入操作
-        Scanner scanner = new Scanner(System.in);
-        while (scanner.hasNext()) {
-            n = scanner.nextInt();
-            m = scanner.nextInt();
-            int p = scanner.nextInt();
-            map = new int[n][m];
+//        Scanner scanner = new Scanner(System.in);
+//        while (scanner.hasNext()) {
+//            n = scanner.nextInt();
+//            m = scanner.nextInt();
+//            int p = scanner.nextInt();
+//            map = new int[n][m];
+//
+//            // 迷宫地图录入
+//            for (int i = 0; i < n; i++) {
+//                for (int j = 0; j < m; j++) {
+//                    map[i][j] = scanner.nextInt();
+//                }
+//            }
 
-            // 迷宫地图录入
-            for (int i = 0; i < n; i++) {
-                for (int j = 0; j < m; j++) {
-                    map[i][j] = scanner.nextInt();
-                }
-            }
+            // 使用自定义测试
+            n = 5;
+            m = 8;
+            int p = 100;
+            map = table;
 
             enterMaze(0, 0, p);
 
@@ -66,7 +88,8 @@ public class FrogMaze {
             } else {
                 System.out.println("Can not escape!");
             }
-        }
+
+//        }
     }
 
     public static void enterMaze(int x, int y, int energy) {
@@ -74,8 +97,8 @@ public class FrogMaze {
         if (energy<0 || x<0 || y<0 || x>=n || y>=m || map[x][y]==0) {
             return;
         } else {
-
-            linkedList.push("["+x+", "+y+"]");
+            // "-"作为分隔符，方便更新路线操作
+            linkedList.push("["+x+","+y+"]-");
 
             // 将当前块记0，使之后的点不能再走
             map[x][y] = 0;
@@ -115,6 +138,17 @@ public class FrogMaze {
         while (iterator.hasNext()) {
             sb.append(iterator.next());
         }
+
+        path = null;
+
+        // 以 - 作为分隔符切分
+        String[] paths = sb.toString().split("-");
+        sb.delete(0, sb.length());
+        for (int i = paths.length-1; i >= 0; i--) {
+            sb.append(paths[i]).append(",");
+        }
+
+        // 删除最后一个","
         if (sb.length() > 0) {
             sb.deleteCharAt(sb.length()-1);
         }
