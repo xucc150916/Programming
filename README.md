@@ -247,3 +247,9 @@ Match.java
 version_38
 1. 判断字符串是否为数字字符串
 NumberString.java
+
+version_39
+1. 机器人的活动范围
+MovingCount.java
+2. 求数组中的逆序对
+AntiOrder.java
