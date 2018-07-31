@@ -253,3 +253,7 @@ version_39
 MovingCount.java
 2. 求数组中的逆序对
 AntiOrder.java
+
+version_40
+1. 求杨辉三角
+Triangle.java
