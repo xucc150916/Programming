@@ -257,3 +257,7 @@ AntiOrder.java
 version_40
 1. 求杨辉三角
 Triangle.java
+
+version_41
+1. 和为S的连续正数序列
+FindContinuousSequence.java

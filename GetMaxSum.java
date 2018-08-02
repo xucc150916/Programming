@@ -48,7 +48,7 @@ public class GetMaxSum {
         }
 
         int maxValue = A[0];
-        int curValue = A[0];
+        int curValue = 0;
         for(int i = 0; i < A.length; i++) {
             // 如果是正数，加入curValue中，如果是负数，将其和其后面紧跟的所有负数加入
             if(A[i] >= 0) {
@@ -62,6 +62,11 @@ public class GetMaxSum {
                     return maxValue;
                 }
                 curValue += A[i];
+				
+				// 熬过了负数添加了第一个正数后已经比0小了，归零
+				if (curValue < 0) {
+                    curValue = 0;
+                }
             }
 
             if(curValue > maxValue) {
