@@ -261,3 +261,7 @@ Triangle.java
 version_41
 1. 和为S的连续正数序列
 FindContinuousSequence.java
+
+version_42 
+1. 判断链表是否带环，不能创建临时变量
+HasCycle.java
