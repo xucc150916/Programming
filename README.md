@@ -267,3 +267,5 @@ version_42
 HasCycle.java
 
 version_43
+1. DeleteCommonChar.java
+删除两个字符串中相同的字符
