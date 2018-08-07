@@ -286,3 +286,9 @@ AddTwoLinked.java
 2. 用两个栈实现队列
 QueueByTwoStack.java
 
+version_47
+1. 删除链表倒数第N个节点
+RemoveNthFromEnd.java
+2. 旋转链表
+RotateList.java
+
