@@ -279,3 +279,10 @@ version_45
 Convert.java
 2. 复杂链表的拷贝
 RandomListNodeClone.java
+
+version_46
+1. 将两个链表的值相加
+AddTwoLinked.java
+2. 用两个栈实现队列
+QueueByTwoStack.java
+
