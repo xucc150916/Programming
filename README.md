@@ -299,3 +299,9 @@ ThreadDemo.java
 version_49
 1. 将二叉树镜像
 Mirror.java 
+
+version_50
+1. 给定前序遍历中序遍历，重建二叉树
+ReConstructBinaryTree.java
+2. 逆波兰表达式结果
+EvalRPN.java
