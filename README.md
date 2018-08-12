@@ -305,3 +305,7 @@ version_50
 ReConstructBinaryTree.java
 2. 逆波兰表达式结果
 EvalRPN.java
+
+version_51
+1. 求二叉树中序遍历中的下一个节点
+GetNext.java
