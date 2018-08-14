@@ -52,4 +52,19 @@ public class Print {
         }
         return list;
     }
+	
+	// 递归版本
+    void depth(TreeNode root, int depth, ArrayList<ArrayList<Integer>> lists) {
+        if (root == null) {
+            return;
+        }
+        if (depth > lists.size()) {
+            lists.add(new ArrayList<Integer>());
+        }
+        lists.get(depth-1).add(root.val);
+        depth(root.left, depth+1, lists);
+        depth(root.right, depth+1, lists);
+        return;
+    }
+	
 }
