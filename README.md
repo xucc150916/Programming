@@ -317,3 +317,9 @@ Print.java
 version_53 
 1. 0交换排序
 ExchangeSort0
+
+version_54
+1. 二叉树的序列化与反序列化
+Serialize.java
+2. 二叉树的前序遍历，递归/迭代
+PreorderBinaryTree.java
