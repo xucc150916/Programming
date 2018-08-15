@@ -323,3 +323,7 @@ version_54
 Serialize.java
 2. 二叉树的前序遍历，递归/迭代
 PreorderBinaryTree.java
+
+version_55
+1. 中序遍历二叉树
+InorderTraversal.java
