@@ -327,3 +327,9 @@ PreorderBinaryTree.java
 version_55
 1. 中序遍历二叉树
 InorderTraversal.java
+
+version_56
+1. 判断两棵二叉树是否一样
+SameTree.java
+2. 判断一个序列是否为BST后序遍历
+VerifySquenceOfBST.java
