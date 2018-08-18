@@ -333,3 +333,9 @@ version_56
 SameTree.java
 2. 判断一个序列是否为BST后序遍历
 VerifySquenceOfBST.java
+
+version_57
+1. 二叉树最小高度
+MinDepth.java
+2. 通过中序遍历和后序遍历结果重建二叉树
+BuildTree.java
