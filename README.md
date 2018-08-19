@@ -339,3 +339,9 @@ version_57
 MinDepth.java
 2. 通过中序遍历和后序遍历结果重建二叉树
 BuildTree.java
+
+version_58
+1. 恢复二叉搜索树，时间复杂度为O(n)，空间复杂度O(1)
+RecoverTree2.java
+2. 判断一棵树是否为平衡二叉树，时间复杂度为O(n)，空间复杂度为O(1)
+IsValidBST2.java
