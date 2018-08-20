@@ -26,8 +26,8 @@ public class InorderTraversal {
 //        inorderTraversal(node.right, list);
 //    }
 
-    // 中序迭代
-    public List<Integer> inorderTraversal(TreeNode root) {
+
+	public List<Integer> inorderTraversal(TreeNode root) {
         List<Integer> list = new ArrayList<>();
         if (root == null) {
             return list;
@@ -35,17 +35,15 @@ public class InorderTraversal {
 
         // 辅助栈
         Stack<TreeNode> stack = new Stack<>();
-        stack.push(null);
         TreeNode cur = root;
         while (!stack.isEmpty() || cur != null) {
-            while (cur != null) {
+            if (cur != null) {
                 stack.push(cur);
                 cur = cur.left;
-            }
-            if (!stack.isEmpty()) {
-                root = stack.pop();
-                list.add(root.val);
-                root = root.left;
+            } else {
+                cur = stack.pop();
+                list.add(cur.val);
+                cur = cur.right;
             }
         }
 
