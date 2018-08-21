@@ -345,3 +345,7 @@ version_58
 RecoverTree2.java
 2. 判断一棵树是否为平衡二叉树，时间复杂度为O(n)，空间复杂度为O(1)
 IsValidBST2.java
+
+version_59
+1. 左旋转字符串
+LeftRotateString.java
