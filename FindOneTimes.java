@@ -54,13 +54,18 @@ public class FindOneTimes {
      * @param str
      */
     public static void solution2(String str) {
-        char[] arr = str.toCharArray();
-        for (int i = 0; i < str.length(); i++) {
-            if (str.indexOf(arr[i]) == str.lastIndexOf(arr[i])) {
-                System.out.println(arr[i]);
+		String s = scanner.nextLine();
+            int i = 0;
+            for (i = 0; i < s.length(); i++) {
+                String tmp = s.charAt(i) + "";
+                if (s.indexOf(tmp) == s.lastIndexOf(tmp)) {
+                    System.out.println(tmp);
+                    break;
+                }
             }
-        }
-        System.out.println(-1);
+            if (i == s.length()) {
+                System.out.println(-1);
+            }
     }
 
 }

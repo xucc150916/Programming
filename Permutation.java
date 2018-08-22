@@ -9,15 +9,21 @@ import java.util.Collections;
  */
 
 public class Permutation {
+
     public static void main(String[] args) {
-        System.out.println(new Permutation().Permutation("a"));
+        System.out.println(new Permutation().Permutation("asdfghkl"));
     }
+    
     public ArrayList<String> Permutation(String str) {
+
         ArrayList<String> list = new ArrayList<>();
+        // 非法输入
         if(str == null) {
             return list;
         }
+
         permutationCore(str.toCharArray(), 0, list);
+
         // 这个鬼题目要求得到的结果是排序的，由于使用的是ArrayList，所以使用Collections提供的静态排序方法进行排序
         Collections.sort(list);
         return list;
